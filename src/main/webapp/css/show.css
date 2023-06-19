@@ -1,0 +1,47 @@
+table {
+    margin-left: 20px;
+}
+th {
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size:14;
+    border-bottom: 2px;
+    border-color: black;
+    border-style: solid;
+    border-top:none;
+    border-left:none;
+    border-right: none;
+}
+.idTH {
+    padding-left:3px;
+    padding-right:3px;
+}
+.idTD, .propertiesTD {
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size:12;
+}
+.propertiesTD {
+    padding-left:100px;
+    padding-right:50px;
+}
+.idTD {
+    padding-right:3px;
+    padding-left:3px;
+}
+form {
+    display:inline-block;
+}
+input[name="edit"],input[name="delete"],input[name="fav"], input[name="remove"], input[name="add"], input[name="random"] {
+    border-radius: 5px;
+    color:rgba(0, 0, 0, 0.92);
+    font-family: Verdana, Tahoma, sans-serif;
+    padding: 5px;
+}
+input[name="edit"], input[name="random"] {
+    background-color:rgba(255, 255, 0, 0.815);
+}
+input[name="delete"], input[name="remove"] {
+    background-color:rgba(255, 0, 0, 0.849);
+}
+input[name="fav"], input[name="add"] {
+    background-color:rgba(47, 255, 0, 0.849);
+}

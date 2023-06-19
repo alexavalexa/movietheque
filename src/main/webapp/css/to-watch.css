@@ -1,0 +1,17 @@
+input[name="random"] {
+    margin-top:30px;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size:14px;
+    margin-right: 20px;
+}
+label {
+    margin-top:10px;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size:14px;
+    border-bottom: 2px;
+    border-color: black;
+    border-style: dotted;
+    border-top:none;
+    border-left:none;
+    border-right: none;
+}

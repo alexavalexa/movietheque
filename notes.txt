@@ -1,0 +1,21 @@
+TO-DO:
+- register/login
+    - table users -> movie user_id;
+    - register.jsp
+        - props
+        - buttons 
+            - to login.jsp
+            - save user -> return login.jsp
+    - login.jsp 
+        - props
+        - buttons 
+            - save user -> return home.jsp (user_id)
+            - to register.jsp
+    - home.jsp
+        - buttons 
+            - logout
+- watched / to-watch
+    - to-watch - pick a random movie
+- sorting
+- tags - categorization
+- notes

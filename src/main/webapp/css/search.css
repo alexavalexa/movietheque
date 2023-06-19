@@ -1,0 +1,66 @@
+p, form {
+    font-family: 'Courier New', Courier, monospace;
+    font-size:20;
+    margin-left: 20px;
+}
+p {
+    font-size: 20px;
+    display:inline;
+}
+
+input[type="radio"], label {
+    display:inline;
+}
+input[value="Search"] {
+    margin-left:10;
+    width:150px;
+    background-color: #e4cf9e;
+    border-color:gray;
+    background-color: #008000;
+    color: #fff;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+}
+input[value="Search"]:hover {
+    background-color: #006600;
+}
+input[type="text"], input[type="number"] {
+    margin-top: 10px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: gray;
+    width: 500px;
+    margin-bottom:50px;
+    color:black;
+}
+
+table {
+    margin-left: 20px;
+}
+th {
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size:14;
+    border-bottom: 2px;
+    border-color: black;
+    border-style: solid;
+    border-top:none;
+    border-left:none;
+    border-right: none;
+}
+.propertiesTH, .propertiesTD{
+    padding-left:50px;
+    padding-right:50px;
+}
+.idTH, .idTD {
+    padding-left: 3px;
+    padding-right:3px;
+}
+.propertiesTD, .idTD{
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size:12;
+}

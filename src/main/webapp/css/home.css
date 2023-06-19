@@ -1,0 +1,50 @@
+h1 {
+    text-align:center;
+    font-size: 36px;
+    font-family: Verdana, Tahoma, sans-serif;
+    color: #333;
+    margin-top: 50px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+li {
+  float: left;
+} 
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li:hover {
+    background-color: #111;
+}
+li[name="logout"] {
+    float: right;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+input[value="Show all"], input[value="Favorites"], input[value="Watched"], input[value="To Watch"] {
+    background:none;
+    border:none;
+    font-family: Verdana, Tahoma, sans-serif;
+    color:white;
+    font-size:16px;
+    margin-left:7px;
+    margin-top:12px;
+    padding-bottom:14px;
+    padding-right:12px;
+}
+input[type="text"], input[type="number"], input[type="password"], input[type="email"] {
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size:16px;
+}
